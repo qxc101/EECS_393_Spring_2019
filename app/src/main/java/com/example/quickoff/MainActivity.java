@@ -55,6 +55,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                         new ContactUsFragment()).commit();
                 break;
         }
+
+        drawer.closeDrawer(GravityCompat.START);
         return true;
     }
 
